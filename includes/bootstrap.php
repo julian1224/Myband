@@ -1,9 +1,9 @@
 <?php
 
 require 'libs/Smarty.class.php';
-
+require_once 'includes/connectvars.php';
 //set up database connection
-$mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME );
+$mysqli = new mysqli(HOST,USER, PASS, DBNAME);
 if($mysqli->errno) {
     echo 'Error : ' . $mysqli->connect_error();
 }

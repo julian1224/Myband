@@ -1,3 +1,4 @@
+
 <?php
 
 //configuration settings
@@ -15,9 +16,10 @@ include 'views/header.php';
 // menu
 include 'views/menu.php';
 
+
+
 $action = isset($_GET['page']) ? $_GET['page'] : 'home';
 
-<script src="includes/time.js"/>
 
 switch ($action) {
     case 'home':

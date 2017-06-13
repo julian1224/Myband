@@ -1,6 +1,6 @@
 <footer class="wrap">
-  <p> Oh my, look at the time! </p>
-<div id="txt">  </div>
+  <br>
+"When you're trying to grow a long beard, it helps to not be dead."
 </footer>
 </body>
 </html>
