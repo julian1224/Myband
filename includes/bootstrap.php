@@ -1,7 +1,7 @@
 <?php
 
 require 'libs/Smarty.class.php';
-require_once 'includes/connectvars.php';
+require_once 'includes/config.php';
 //set up database connection
 $mysqli = new mysqli(HOST,USER, PASS, DBNAME);
 if($mysqli->errno) {

@@ -23,7 +23,6 @@ $action = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 switch ($action) {
     case 'home':
-        include 'views/home.php';
         include '../model/get_pagination.php';
         $templateParser->assign('page', $page);
         include '../model/get_data.php';
