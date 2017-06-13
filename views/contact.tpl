@@ -9,6 +9,5 @@
       23669@ma-web.nl
       <hr>
     </div >
-    copyright 2017 by me, Link.
     </content>
 </content>
