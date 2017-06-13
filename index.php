@@ -17,6 +17,8 @@ include 'views/menu.php';
 
 $action = isset($_GET['page']) ? $_GET['page'] : 'home';
 
+<script src="includes/time.js"/>
+
 switch ($action) {
     case 'home':
         include 'views/home.php';
@@ -36,7 +38,8 @@ switch ($action) {
         break;
     case 'contact':
         //contact
-        include 'views/contact.php';
+        // include 'views/contact.php';
+        $templateParser->display('views/contact.tpl');
         break;
 }
 

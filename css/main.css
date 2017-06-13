@@ -1,8 +1,11 @@
 body {
-
   font-family: "Courier New";
-  background-color: black;
-}
-a {
+  background-color: darkgray;
+ }
+ a {
   text-decoration: none;
+}
+#contact {
+  color: limegreen;
+  background-color: lightgray;
 }

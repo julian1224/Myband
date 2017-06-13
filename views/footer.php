@@ -1,6 +1,6 @@
 <footer class="wrap">
-    <hr>
-    copyright 2017 by me
+  <p> Oh my, look at the time! </p>
+<div id="txt">  </div>
 </footer>
 </body>
 </html>
