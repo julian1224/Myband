@@ -1,5 +1,5 @@
 <?php
-$title = 'MyBand';
+$title = 'Shine on you crazy diamond';
 
 define('DB_HOST','127.0.0.1');
 define('DB_NAME','myband');
