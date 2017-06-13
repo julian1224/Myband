@@ -10,3 +10,4 @@
 
 	<link rel="stylesheet" href="css/main.css">
 </head>
+	<img id="cover" src="images/pose.png" alt="damn"/>

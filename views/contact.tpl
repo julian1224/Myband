@@ -3,7 +3,7 @@
       <div id="contact">
       <hr>
       Let's get in touch! <br>
-      Link DiChiara <br>
+      Link DiChiara, site creator and manager. <br>
       <br>
       020 5318008 <br>
       23669@ma-web.nl
