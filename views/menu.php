@@ -7,3 +7,4 @@
         <li><a href="?page=contact">contact</a></li>
     </ul>
 </nav>
+<hr><br>

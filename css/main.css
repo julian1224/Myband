@@ -1,13 +1,17 @@
 body {
   font-family: "Courier New";
-  background-color: darkgray;
+background-image: url(../images/wallpaper.jpg);
+  color: cyan;
  }
  a {
   text-decoration: none;
+  color: gray;
 }
 #contact {
   color: limegreen;
-  background-color: lightgray;
+  Background-color: #262626;
+  border-color: lightgray;
+  border-size: 3px;
 }
 pre {
   Background-color: #262626;
@@ -16,4 +20,12 @@ pre {
 
 #cover {
 height: 300px;
+}
+
+.logo {
+text-align: center;
+}
+.wrap li{ 
+float: left;
+width: 25%;
 }
