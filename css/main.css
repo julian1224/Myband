@@ -1,31 +1,72 @@
 body {
   font-family: "Courier New";
-background-image: url(../images/wallpaper.jpg);
+  background-image: url(../images/wallpaper.jpg);
   color: cyan;
+  background-position: center;
  }
- a {
-  text-decoration: none;
-  color: gray;
-}
-#contact {
-  color: limegreen;
-  Background-color: #262626;
-  border-color: lightgray;
-  border-size: 3px;
-}
-pre {
-  Background-color: #262626;
-  color: limegreen;
-}
 
+
+/* Cover picture */
 #cover {
 height: 300px;
 }
 
+
+/* Logo */
 .logo {
-text-align: center;
+  text-align: center;
 }
+
+pre {
+  color: limegreen;
+}
+
+/* Links */
+ a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* General layout */
+#contact {
+  color: limegreen;
+  Background-color: rgb(15,15,15,0.7);
+  border-color: lightgray;
+  border-size: 3px;
+}
+
+
+
+
+
+
+/* Wrap */
+.wrap { Background-color: rgb(15,15,15,0.7); }
+
 .wrap li{ 
 float: left;
+Background-color: rgb(15,15,15,0.7);
 width: 25%;
+height: 20px;
+font-size: 20px;
+
 }
+
+/* Footer */
+footer {
+Background-color: rgb(15,15,15,0.7);
+}
+
+/* Hover  */
+nav a:hover {
+text-decoration: underline;
+color: fuchsia;
+}
+#contact:hover {
+  Background-color: rgb(12,12,12,0.5); }
+
+.wrap:hover {
+  Background-color: rgb(12,12,12,0.5); }
+
+footer:hover {
+  Background-color: rgb(12,12,12,0.5); }

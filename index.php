@@ -45,12 +45,15 @@ switch ($action) {
         break;
     case 'contact':
         //contact
-        // include 'views/contact.php';
         $templateParser->display('views/contact.tpl');
         break;
-}
-
+    default:
+      $templateParser->display('index.tpl');
+      break;
+};
+require_once("model/get_DATE.php");
+$templateParser->assign('get_DATE', $get_DATE);
 // footer
-include 'views/footer.php';
+$templateParser->display('views/footer.tpl');
 
 ?>

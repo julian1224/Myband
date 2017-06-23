@@ -1,0 +1,7 @@
+Change the background music depending on the day of the week (Find 4 more instrumental Pendulum songs to use)
+
+Add pagination with a smarty template-- 3 articles/post 
+
+
+
+
