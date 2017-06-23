@@ -10,6 +10,8 @@ require 'includes/bootstrap.php';
 // head
 require_once 'model/weekmusic.php';
 $templateParser->assign('mp3source', $mp3source);
+$templateParser->assign('title', $title);
+
 $templateParser->display('views/head.tpl');
 
 // header

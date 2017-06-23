@@ -10,7 +10,7 @@
 
 	<link rel="stylesheet" href="css/main.css">
 </head>
-  Now playing: {$mp3name}
+  <span id="playing"> Now playing: {$mp3source} </span>
 	<img id="cover" src="images/pose.png" alt="damn"/>
 	<audio preload autoplay loop>
 	  <source src="media/{$mp3source}" type="audio/mpeg">
