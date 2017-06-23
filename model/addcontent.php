@@ -5,7 +5,7 @@ for ($i = 1;$i <= 60; $i++) {
     $title = 'Titel ' . $i;
     $content = 'Content ' . $i;
     $image = 'Image ' . $i;
-    $query = "INSERT INTO articles VALUES (0,'$title','$content','$image',now())";
+    $query = "INSERT INTO articles VALUES (0,'$title','$content','$image',NOW())";
     $result = mysqli_query($dbc,$query) or die ('Error inserting.');
 }
 echo 'Success!';

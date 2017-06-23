@@ -8,10 +8,14 @@ require 'includes/config.php';
 require 'includes/bootstrap.php';
 
 // head
-include 'views/head.php';
+require_once 'model/weekmusic.php';
+$templateParser->assign('mp3source', $mp3source);
+$templateParser->display('views/head.tpl');
 
 // header
-include 'views/header.php';
+require_once("model/get_reference.php");
+$templateParser->assign('get_reference', $get_reference);
+$templateParser->display('views/header.tpl');
 
 // menu
 include 'views/menu.php';
@@ -32,10 +36,15 @@ switch ($action) {
         break;
     case 'articles':
         //get articles from the model
-        require_once 'model/getarticles.php';
+        require_once 'model/get_pagination.php';
+        require_once 'model/get_data.php';
         //rewrite to smarty template
         $templateParser->assign('article_list',$result_list);
         $templateParser->display('articles.tpl');
+
+        // page index
+        $templateParser->assign('page',$page);
+        $templateParser->display('views/current_page.tpl');
         break;
     case 'about':
         //use 'display' to show a template
@@ -51,9 +60,12 @@ switch ($action) {
       $templateParser->display('index.tpl');
       break;
 };
+
+
+// footer
 require_once("model/get_DATE.php");
 $templateParser->assign('get_DATE', $get_DATE);
-// footer
 $templateParser->display('views/footer.tpl');
+
 
 ?>

@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title><?php echo $title;?></title>
+	<title>{$title}</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
@@ -10,4 +10,9 @@
 
 	<link rel="stylesheet" href="css/main.css">
 </head>
+  Now playing: {$mp3name}
 	<img id="cover" src="images/pose.png" alt="damn"/>
+	<audio preload autoplay loop>
+	  <source src="media/{$mp3source}" type="audio/mpeg">
+	    If you use IE, you suck dicks.
+	</audio>

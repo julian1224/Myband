@@ -1,5 +1,7 @@
 
 <nav class="wrap">
+  {$page_name}
+  <hr>
     <ul>
         <li><a href="?page=home">home</a></li>
         <li><a href="?page=articles">articles</a></li>
