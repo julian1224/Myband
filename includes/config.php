@@ -1,7 +1,7 @@
 <?php
 
 // Title. Maybe add array.
-$title = 'Shine on you crazy diamond';
+
 
 // # of pages
 define('RESULTS_PER_PAGE', '3');
