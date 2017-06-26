@@ -2,8 +2,9 @@
 $musicdate = date("l");
 switch($musicdate) {
   case 'Monday':
-  break;
   $mp3source = "Pendulum - Granite Instrumental.mp3";
+  break;
+  
   case 'Tuesday':
   $mp3source = "Pendulum - The Fountain Instrumental.mp3";
   break;
@@ -26,6 +27,9 @@ switch($musicdate) {
 
   case 'Sunday':
   $mp3source = "Pendulum - Set Me On Fire Instrumental.mp3";
+  break;
+  default:
+  $mp3source = "We have no clue what day it is. No music for now.";
   break;
 }
 

@@ -2,14 +2,16 @@
 
 <table id="pagechanger">
     <tr><td id="left">
-      <a href="?url=home&page={$page-1}">Previous</a>
+      {if $page gt 1}
+      <a href="?url=articles&page={$page+1}"><==</a>
       {/if}
     </td>
+    <td> {$page} </td>
     <td id="right">
       {if $page lt $number_of_pages}
-      <a href="?url=home&page={$page+1}">Next</a>
-        {/if}
-      </td></tr>
+      <a href="?url=articles&page={$page+1}">==></a>
+      {/if}
+    </td></tr>
 
     </table>
 

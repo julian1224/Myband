@@ -10,5 +10,5 @@ $number_of_pages = ceil( $number_of_results / $results_per_page);
 !isset($_GET['num']) ? $page = 1 : $page = $_GET['num'];
 
 $limit_starting_number = ($page - 1) * $results_per_page;
-echo $limit_starting_number;
+
 ?>

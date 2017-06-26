@@ -12,4 +12,5 @@
       <hr>
     </div >
     </content>
+    <hr>
 </content>

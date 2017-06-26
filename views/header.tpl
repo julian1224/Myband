@@ -1,9 +1,9 @@
 <header>
     <div class="wrap">
-        <div class="logo">
+        <div class="flashback">
           {$get_reference}
           <hr>
-          <pre id="Pendo">
+          <pre >
 
   _____  ______ _   _ _____  _    _ _     _    _ __  __
  |  __ \|  ____| \ | |  __ \| |  | | |   | |  | |  \/  |

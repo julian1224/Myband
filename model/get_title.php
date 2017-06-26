@@ -12,7 +12,10 @@ $referenceArray = array("Shine on you crazy diamond",
 "Man in the Mirror",
 "Vicious Delicious",
 "Thelonious Monk",
-"Yellow Submarine");
+"Yellow Submarine",
+"Pink Season");
+
+
 $pickTitle = rand(0 , count($referenceArray) -1);
 $title = $referenceArray[$pickTitle];
 
