@@ -1,25 +1,17 @@
-<p id="pagenumber">Page {$page}</p>
 
-<table id="pagechanger">
-    <tr><td id="left">
-      {if $page gt 1}
-      <a href="?url=articles&page={$page+1}"><==</a>
-      {/if}
-    </td>
-    <td> {$page} </td>
-    <td id="right">
-      {if $page lt $number_of_pages}
-      <a href="?url=articles&page={$page+1}">==></a>
-      {/if}
-    </td></tr>
+<div class="flashback" style="height:900px">
+  NEWS goes here. Eventually? For an extra point. Yes.
 
-    </table>
+  <section>
+      {foreach from=$news_list item="news"}
+        <article  class="flashback">
 
-    {foreach from="$result" item=oneItem}
-      <table class="content">
-        <tr><td><h3>{$oneItem.id}</h3></td></tr>
-        <tr><td><h4>{$oneItem.title}</h4></td></tr>
-        <tr><td><p>{$oneItem.content}</p></td></tr>
-        <tr><td><p>{$oneItem.date_created|date_format:"%e %B %Y"}</p></td></tr>
-      </table><br>
-      {/foreach}
+          <h1> {$news.title } </h1> <br>
+          <h3> {$news.subtitle} </h3> <br>
+          <content>{$news.content} </content>
+          <h2> {$news.Date}</h2>
+          <br> <br> <hr>  </article>
+        {/foreach}
+    </section>
+</div>
+<hr>

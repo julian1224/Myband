@@ -4,7 +4,7 @@ switch($musicdate) {
   case 'Monday':
   $mp3source = "Pendulum - Granite Instrumental.mp3";
   break;
-  
+
   case 'Tuesday':
   $mp3source = "Pendulum - The Fountain Instrumental.mp3";
   break;
@@ -22,7 +22,7 @@ switch($musicdate) {
   break;
 
   case 'Saturday':
-  $mp3source = "Pendulum - Different Instrumental";
+  $mp3source = "Pendulum - Different Instrumental.mp3";
   break;
 
   case 'Sunday':

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-26 13:10:46
+/* Smarty version 3.1.30, created on 2017-07-07 07:34:49
   from "C:\Users\7isco\Desktop\Myband\views\current_page.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_595107d6920f71_51667547',
+  'unifunc' => 'content_595f3999938348_44065516',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3d5a946625c4db5cf0bf7948b45eee44e1f2a697' => 
     array (
       0 => 'C:\\Users\\7isco\\Desktop\\Myband\\views\\current_page.tpl',
-      1 => 1498482624,
+      1 => 1499412743,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_595107d6920f71_51667547 (Smarty_Internal_Template $_smarty_tpl) {
+function content_595f3999938348_44065516 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<hr>
+<div class="flashback">
 <table id="pagechanger" >
   <tr><td id="left">
     <?php if ($_smarty_tpl->tpl_vars['page']->value > 1) {?>
-    <a href="?url=articles&page=<?php echo $_smarty_tpl->tpl_vars['page']->value+1;?>
+    <a href="?page=articles&num=<?php echo $_smarty_tpl->tpl_vars['page']->value-1;?>
 "><==</a>
     <?php }?>
   </td>
@@ -34,9 +34,12 @@ function content_595107d6920f71_51667547 (Smarty_Internal_Template $_smarty_tpl)
  </td>
   <td id="right">
     <?php if ($_smarty_tpl->tpl_vars['page']->value < $_smarty_tpl->tpl_vars['number_of_pages']->value) {?>
-    <a href="?url=articles&page=<?php echo $_smarty_tpl->tpl_vars['page']->value+1;?>
+    <a href="?page=articles&num=<?php echo $_smarty_tpl->tpl_vars['page']->value+1;?>
 ">==></a>
     <?php }?>
   </td></tr>
+</table>
+</div>
+<hr>
 <?php }
 }

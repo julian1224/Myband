@@ -4,6 +4,7 @@ body {
   color: cyan;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
  }
 
 hr {
@@ -23,10 +24,10 @@ height: 300px;
 }
 
 .flashback {
-      Background-color: rgb(15,15,15,0.7);
+      Background-color: rgba(15,15,15,0.7);
 }
 .flashback:hover {
-  Background-color: rgb(12,12,12,0.5);
+  Background-color: rgba(12,12,12,0.5);
 }
 /* Logo */
 
@@ -46,12 +47,16 @@ pre {
   color: limegreen;
   border-color: lightgray;
   padding: 10px;
-  background-color: rgb(12,12,12, 0.5);
+  background-color: rgba(12,12,12, 0.8);
 
 }
 #pagetitle {
   text-align: center;
   font-size: 20px;
+}
+#contentimg {
+  width: 30%;
+  height: auto;
 }
  ul {
   margin: 0;
@@ -70,7 +75,11 @@ width: 20%;
   height: 30px;
 }
 
-
+#pagechanger {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
 
 /* Footer */
 

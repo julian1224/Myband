@@ -1,9 +1,13 @@
 
 <?php
-include 'model/emptyvars.php';
+
+
+require_once 'model/emptyvars.php';
 
 //configuration settings
 require 'includes/config.php';
+// RSS Feed
+
 
 //initialisation
 require 'includes/bootstrap.php';
@@ -30,12 +34,15 @@ $action = isset($_GET['page']) ? $_GET['page'] : 'home';
 $templateParser->assign('page_title', $action);
 $templateParser->display('views/menu.tpl');
 
-
-
+include 'model/cookie.php';
 
 switch ($action) {
     case 'home':
+        if(isset($searchterm)) {
+          include 'model/content.php';
+        } else {
         $templateParser->display('index.tpl');
+      }
         break;
     case 'articles':
         //get articles and perform pagination
@@ -62,7 +69,8 @@ switch ($action) {
         break;
     case 'search':
       //search
-      include 'views/search.php';
+      include 'model/searchcontent.php';
+      include 'model/search.php';
       break;
     default:
       $templateParser->display('index.tpl');
