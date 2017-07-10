@@ -41,6 +41,8 @@ switch ($action) {
         if(isset($searchterm)) {
           include 'model/content.php';
         } else {
+          include 'model/getnews.php';
+        $templateParser->assign('news_list', $result_news);
         $templateParser->display('index.tpl');
       }
         break;
@@ -73,7 +75,7 @@ switch ($action) {
       include 'model/search.php';
       break;
     default:
-      $templateParser->display('index.tpl');
+      $templateParser->display('error.tpl');
       break;
 };
 

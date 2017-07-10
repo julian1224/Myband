@@ -1,16 +1,14 @@
 
-<div class="flashback" style="height:900px">
-  NEWS goes here. Eventually? For an extra point. Yes.
-
+<div>
   <section>
       {foreach from=$news_list item="news"}
-        <article  class="flashback">
+        <article id="news" class="flashback">
 
-          <h1> {$news.title } </h1> <br>
-          <h3> {$news.subtitle} </h3> <br>
-          <content>{$news.content} </content>
-          <h2> {$news.Date}</h2>
-          <br> <br> <hr>  </article>
+          <h1> {$news.Title} </h1>
+          <h3> {$news.Subtitle} </h3>
+          <p>{$news.Content} </p>
+          <h5> posted on: {$news.Date}</h2>
+          <br> </article>
         {/foreach}
     </section>
 </div>
