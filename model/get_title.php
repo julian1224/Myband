@@ -53,7 +53,9 @@ $referenceArray = array("Shine on you crazy diamond",
 "Ice Ice Baby", "Walter Murphy & the Big Apple Band", "We Are Number One but it's in Japanese",
 "Paint it, Black", "REO Speedwagon", "Kendrick Lamar",
 "TenTemPiés", "Colour Haze", "Dio - Pain",
-"Se vaikenee joka pelkää" 
+"Se vaikenee joka pelkää", "R.E.O. Speedwagon", "Spice Girls",
+"Big Booty Bitches", "Dookie", "Nevermind",
+"Master of Puppets", "Rick Astley", "Detroit Rock City"
 );
 
 
