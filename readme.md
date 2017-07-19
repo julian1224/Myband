@@ -4,15 +4,21 @@ three random interaction concepts
 https://puu.sh/wMKWR.png // interaction
 https://puu.sh/wMKXe.png // interaction1
 https://puu.sh/wML0w.png // interaction2
+wireframes MyBand
+https://puu.sh/wN76L.png // desktop
+https://puu.sh/wN76J.png // mobile
+concepts interactions MyBand
+https://puu.sh/wNTf4.png
+https://puu.sh/wNT8z.png
+https://puu.sh/wNTh2.png
+
 
 
 ## Titel van jouw website
-www.mijnliveomgeving.com is een website van (..jouw naam..) waar gebruikers kunnen (..nut gebruiker..) bedoeld voor (..doelgroep..)
-De website is enigszins te vergelijken met (..concurrentie1..) of (..concurrentie2..) maar toch anders omdat (..uniek aspect..)
+I make stuff. I am Link. This here is MyBand, a project started for school.
 
 ### Uniek aan dit concept is:
- * eerste u.s.p. (vul hier in, waarin jouw site anders is dan alle anderen)
- * tweede u.s.p. (vul hier in, waar jouw site door gaat opvallen, wat zal iedereen onthouden van jouw site?)
+This site pays homage to Pendulum.
 
 ---
 #### Milestones Fase 1
