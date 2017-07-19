@@ -1,5 +1,7 @@
 Moodboard / Style design
 https://puu.sh/vSNP5.png
+Flowchart of the site content
+https://puu.sh/wNUgE.png
 three random interaction concepts
 https://puu.sh/wMKWR.png // interaction
 https://puu.sh/wMKXe.png // interaction1
