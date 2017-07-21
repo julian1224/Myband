@@ -2,6 +2,8 @@ Style design
 https://puu.sh/vSNP5.png
 Moodboard
 https://puu.sh/wOTCA.png
+Styleboard
+https://puu.sh/wOVkY.png
 Flowchart of the site content
 https://puu.sh/wNUgE.png
 three random interaction concepts
